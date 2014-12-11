@@ -1,84 +1,47 @@
-# Puppet on Windows 
+# Puppet on Windows
 
 ## Overview
 
-This module acts as a collection for the Puppet Forge's best Windows content. Installing puppetlabs-windows will install a variety of great modules from a diverse group of module authors, including Puppet Labs. Many are contributed by our community, reviewed and recommended by Puppet Labs as [Puppet Approved](https://forge.puppetlabs.com/approved) modules. Several critical modules are provided through our [Puppet Supported](https://forge.puppetlabs.com/supported) program.
+This module acts as a pack of the Puppet Forge's best Windows content. Installing puppetlabs-windows will install a variety of great modules from a diverse group of module authors, including Puppet Labs. Many are contributed by our community, reviewed and recommended by Puppet Labs as [Puppet Approved](https://forge.puppetlabs.com/approved) modules. Several core modules are provided through our [Puppet Supported](https://forge.puppetlabs.com/supported) program.
 
-### Quick Start
+## Setup
 
-This guide assumes that you have installed Puppet Enterprise on your Windows server and that you've connected its Puppet agent to a Puppet Enterprise master. 
+This guide assumes that you have downloaded and installed Puppet Enterprise on your Windows server and that you've connected its Puppet agent to a Puppet Enterprise master.
 - [Learn more](https://docs.puppetlabs.com/pe/latest/install_windows.html) on installing the Puppet Enterprise agent onto a Windows server.
 - Don't have a PE master? Try the [Learning Puppet VM](https://docs.puppetlabs.com/learning/introduction.html#get-the-free-vm) for evaluation purposes.
 
-*We should use this section to get a new Windows user from nothing to functional PE managing a Windows box. Is it just a write-up of running the learning VM on a Windows desktop, connecting a windows PE agent to the VM? We may want to eventually offer PE node manager artifacts that the customer can import into their console* 
+Once installed, start by installing the windows module pack onto your PE master (like the Learning VM) by running `puppet module install puppetlabs-windows` from the command-line. You should see the Puppet module tool installing multiple modules from the Puppet Forge. [Learn more](https://docs.puppetlabs.com/puppet/latest/reference/modules_installing.html#installing-from-the-puppet-forge) about installing modules.
 
+Now, you can start using individual modules from this pack to solve a problem. To do this, you'll want to browse the documentation for an individual module listed below. Equipped with details on interacting with individual module capabilities, you may want to [write your own module](https://docs.puppetlabs.com/pe/latest/quick_writing_windows.html) or [directly assign work](https://docs.puppetlabs.com/pe/latest/console_classes_groups.html) to your Windows machine from the Puppet Enterprise console.
 
-## The Puppet on Windows Collection
+## The Puppet on Windows Pack
 
-This README briefly describes each included module by category of use. Full documentation for each module can be found by following links to individual module pages.
+These are the modules available in the puppetlabs-windows pack. Full documentation for each module can be found by following links to individual module pages. By installing puppetlabs-windows, you will install recommended versions of the entire set of Puppet modules.
 
-Take note that only the modules by Puppet Labs are supported with Puppet Enterprise. The rest have been reviewed and recommended by Puppet Labs but are not eligible for commercial support.
-
-
-*The spirit of this section is to list out our capabilities, emphasis on Windows key words, followed by example DSL on how they're used to accomplish a cohesive thing. Obviously, the DSL part is to-do. Ryan failed to get a Windows VM running properly in time.*
-
-### Core Windows
+Take note that only the modules by Puppet Labs are supported with Puppet Enterprise. The rest have been reviewed and recommended by Puppet Labs but are not eligible for [commercial support](http://puppetlabs.com/services/customer-support).
 
 Use Puppet on Windows to:
 - Read, create and write **registry keys** with [puppetlabs-registry](https://forge.puppetlabs.com/puppetlabs/registry).
 - Interact with **PowerShell** through the Puppet DSL with [puppetlabs-powershell](https://forge.puppetlabs.com/puppetlabs/powershell).
 - **Reboot** Windows as part of management as necessary through [puppetlabs-reboot](https://forge.puppetlabs.com/puppetlabs/reboot).
+- Enforce fine-grained **access control** permissions using [puppetlabs-acl](https://forge.puppetlabs.com/puppetlabs/acl).
 - Install or remove **Windows features** with [opentable-windowsfeature](https://forge.puppetlabs.com/opentable/windowsfeature).
 - Download files for use during management via [opentable-download_file](https://forge.puppetlabs.com/opentable/download_file).
-- Enforce fine-grained **access control** permissions using [puppetlabs-acl](https://forge.puppetlabs.com/puppetlabs/acl).
-
-*Example Usage: Should include some sample DSL from these modules which when used together, provide a useful end-result.* 
-
-### Web Sites & Services
-
-Use Puppet on Windows to:
-- Create and manage Microsoft SQL including databases, users and grants with puppetlabs-mssql.
 - Build IIS sites and virtual applications with [opentable-iis](https://forge.puppetlabs.com/opentable/iis).
-
-*Example Usage: Should include some sample DSL from these modules which when used together, provide a useful end-result.* 
-
-
-POTENTIAL ADDITIONS (to be approved or purged from this collection)
-
-More utility modules:
-https://forge.puppetlabs.com/liamjbennett/win_facts
-https://forge.puppetlabs.com/liamjbennett/windows_autoupdate
-https://forge.puppetlabs.com/opentable/sslcertificate
-https://forge.puppetlabs.com/counsyl/windows
-
-Active directory interactions:
-https://forge.puppetlabs.com/jriviere/windows_ad/readme
-https://forge.puppetlabs.com/martezr/windows_domain_controller
-https://forge.puppetlabs.com/trlinkin/domain_membership
-
-Remote administration and logging:
-https://forge.puppetlabs.com/martezr/rdp
-https://forge.puppetlabs.com/liamjbennett/windows_eventlog
-
-Package & file utility: 
-https://forge.puppetlabs.com/jriviere/windows_isos
-https://forge.puppetlabs.com/creativeview/mssql_system_dsn
-https://forge.puppetlabs.com/ceritsc/chocolatey_sw
+- Soon, create and manage Microsoft SQL including databases, users and grants with the [puppetlabs-sqlserver](https://forge.puppetlabs.com/puppetlabs/sqlserver) module (installed separately).
 
 
-AND MANY MORE (link to search for windows)
+## More from the Puppet Forge
 
+You can find even more great modules by [searching for windows](https://forge.puppetlabs.com/modules?utf-8=✓&sort=rank&q=windows). Here are a few examples from the Puppet community.
 
-ADDITIONAL RESOURCES
+- [liamjbennett-windows_autoupdate](https://forge.puppetlabs.com/liamjbennett/windows_autoupdate)
+- [liamjbennett-windows_eventlog](https://forge.puppetlabs.com/liamjbennett/windows_eventlog)
+- [opentable-sslcertificate](https://forge.puppetlabs.com/opentable/sslcertificate)
+- [counsyl-windows](https://forge.puppetlabs.com/counsyl/windows)
+- [ceritsc-chocolatey_sw](https://forge.puppetlabs.com/ceritsc/chocolatey_sw)
+- [jriviere-windows_ad](https://forge.puppetlabs.com/jriviere/windows_ad)
+- [trlinkin-domain_membership](https://forge.puppetlabs.com/trlinkin/domain_membership)
 
-- PuppetConf Talks
-- Windows documentation
-
-## Limitations
-
-- this section could express the distinction between supported/approved and speak to the requirements for getting started with windows in general (need a master). 
-
-## Development
-
-- follow each individual module's project url link. 
-
+These modules are not part of this pack nor are they Puppet Approved or Puppet Supported.
+But, every Forge module now offers [quality and community ratings](http://puppetlabs.com/blog/new-ratings-puppet-forge-modules) to help you choose the best module for your need.
