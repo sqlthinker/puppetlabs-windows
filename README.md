@@ -28,6 +28,7 @@ Use Puppet on Windows to:
 - Install or remove **Windows features** with [opentable-windowsfeature](https://forge.puppetlabs.com/opentable/windowsfeature).
 - Download files for use during management via [opentable-download_file](https://forge.puppetlabs.com/opentable/download_file).
 - Build IIS sites and virtual applications with [opentable-iis](https://forge.puppetlabs.com/opentable/iis).
+- Install packages with [chocolatey-chocolatey](https://forge.puppetlabs.com/chocolatey/chocolatey).
 - Soon, create and manage Microsoft SQL including databases, users and grants with the [puppetlabs-sqlserver](https://forge.puppetlabs.com/puppetlabs/sqlserver) module (installed separately).
 
 
