@@ -12,9 +12,9 @@
     {"name":"puppetlabs-powershell","version_requirement":"1.x"},
     {"name":"puppetlabs-reboot","version_requirement":"0.x"},
     {"name":"puppetlabs-acl","version_requirement":"1.x"},
-    {"name":"opentable-windowsfeature","version_requirement":"1.x"},
-    {"name":"opentable-download_file","version_requirement":"1.x"},
-    {"name":"opentable-iis","version_requirement":"1.x"}
+    {"name":"puppet-windowsfeature","version_requirement":"1.x"},
+    {"name":"puppet-download_file","version_requirement":"1.x"},
+    {"name":"puppet-iis","version_requirement":"1.x"}
   ],
   "operatingsystem_support": [
     {
