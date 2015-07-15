@@ -1,3 +1,8 @@
+##2015-07-15 - Release 2.0.1
+### Summary
+
+Update metatata.json dependencies to use / instead of -
+
 ##2015-06-09 - Release 2.0.0
 ### Summary
 
