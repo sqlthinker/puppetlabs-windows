@@ -29,16 +29,20 @@ Use Puppet on Windows to:
 - Download files for use during management via [opentable-download_file](https://forge.puppetlabs.com/opentable/download_file).
 - Build IIS sites and virtual applications with [opentable-iis](https://forge.puppetlabs.com/opentable/iis).
 - Install packages with [chocolatey-chocolatey](https://forge.puppetlabs.com/chocolatey/chocolatey).
-- Soon, create and manage Microsoft SQL including databases, users and grants with the [puppetlabs-sqlserver](https://forge.puppetlabs.com/puppetlabs/sqlserver) module (installed separately).
+- Install or remove **Windows features** with [puppet-windowsfeature](https://forge.puppetlabs.com/puppet/windowsfeature).
+- Download files for use during management via [puppet-download_file](https://forge.puppetlabs.com/puppet/download_file).
+- Build IIS sites and virtual applications with [puppet-iis](https://forge.puppetlabs.com/puppet/iis).
+- Install packages with [chocolatey-chocolatey](https://forge.puppetlabs.com/chocolatey/chocolatey).
+- Create and manage Microsoft SQL including databases, users and grants with the [puppetlabs-sqlserver](https://forge.puppetlabs.com/puppetlabs/sqlserver) module (installed separately).
 
 
 ## More from the Puppet Forge
 
 You can find even more great modules by [searching for windows](https://forge.puppetlabs.com/modules?utf-8=✓&sort=rank&q=windows). Here are a few examples from the Puppet community.
 
-- [liamjbennett-windows_autoupdate](https://forge.puppetlabs.com/liamjbennett/windows_autoupdate)
-- [liamjbennett-windows_eventlog](https://forge.puppetlabs.com/liamjbennett/windows_eventlog)
-- [opentable-sslcertificate](https://forge.puppetlabs.com/opentable/sslcertificate)
+- [puppet-windows_autoupdate](https://forge.puppetlabs.com/puppet/windows_autoupdate)
+- [puppet-windows_eventlog](https://forge.puppetlabs.com/puppet/windows_eventlog)
+- [puppet-sslcertificate](https://forge.puppetlabs.com/puppet/sslcertificate)
 - [counsyl-windows](https://forge.puppetlabs.com/counsyl/windows)
 - [ceritsc-chocolatey_sw](https://forge.puppetlabs.com/ceritsc/chocolatey_sw)
 - [jriviere-windows_ad](https://forge.puppetlabs.com/jriviere/windows_ad)
