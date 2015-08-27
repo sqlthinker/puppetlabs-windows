@@ -28,7 +28,8 @@ Use Puppet on Windows to:
 - Install or remove **Windows features** with [puppet-windowsfeature](https://forge.puppetlabs.com/puppet/windowsfeature).
 - Download files for use during management via [puppet-download_file](https://forge.puppetlabs.com/puppet/download_file).
 - Build IIS sites and virtual applications with [puppet-iis](https://forge.puppetlabs.com/puppet/iis).
-- Soon, create and manage Microsoft SQL including databases, users and grants with the [puppetlabs-sqlserver](https://forge.puppetlabs.com/puppetlabs/sqlserver) module (installed separately).
+- Install packages with [chocolatey-chocolatey](https://forge.puppetlabs.com/chocolatey/chocolatey).
+- Create and manage Microsoft SQL including databases, users and grants with the [puppetlabs-sqlserver](https://forge.puppetlabs.com/puppetlabs/sqlserver) module (installed separately).
 
 
 ## More from the Puppet Forge
