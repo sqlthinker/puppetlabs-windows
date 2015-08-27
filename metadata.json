@@ -1,6 +1,6 @@
 {
   "name": "puppetlabs-windows",
-  "version": "2.0.1",
+  "version": "2.1.0",
   "author": "puppetlabs",
   "summary": "Collection of Puppet modules for managing Microsoft Windows.",
   "license": "Apache-2.0",
