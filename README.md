@@ -25,6 +25,7 @@ Use Puppet on Windows to:
 - Interact with **PowerShell** through the Puppet DSL with [puppetlabs-powershell](https://forge.puppetlabs.com/puppetlabs/powershell).
 - **Reboot** Windows as part of management as necessary through [puppetlabs-reboot](https://forge.puppetlabs.com/puppetlabs/reboot).
 - Enforce fine-grained **access control** permissions using [puppetlabs-acl](https://forge.puppetlabs.com/puppetlabs/acl).
+- Manage Windows Server Update Service configs on client nodes [puppetlabs-wsus_client](https://forge.puppetlabs.com/puppetlabs/wsus_client).
 - Install or remove **Windows features** with [puppet-windowsfeature](https://forge.puppetlabs.com/puppet/windowsfeature).
 - Download files for use during management via [puppet-download_file](https://forge.puppetlabs.com/puppet/download_file).
 - Build IIS sites and virtual applications with [puppet-iis](https://forge.puppetlabs.com/puppet/iis).
@@ -37,7 +38,6 @@ Use Puppet on Windows to:
 
 You can find even more great modules by [searching for windows](https://forge.puppetlabs.com/modules?utf-8=✓&sort=rank&q=windows). Here are a few examples from the Puppet community.
 
-- [puppet-windows_autoupdate](https://forge.puppetlabs.com/puppet/windows_autoupdate)
 - [puppet-windows_eventlog](https://forge.puppetlabs.com/puppet/windows_eventlog)
 - [puppet-sslcertificate](https://forge.puppetlabs.com/puppet/sslcertificate)
 - [counsyl-windows](https://forge.puppetlabs.com/counsyl/windows)
