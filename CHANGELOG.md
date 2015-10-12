@@ -1,3 +1,8 @@
+##2015-08-31 - Release 2.1.0
+### Summary
+
+Add Chocolatey to the module pack
+
 ##2015-07-15 - Release 2.0.1
 ### Summary
 
