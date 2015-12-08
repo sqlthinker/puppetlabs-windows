@@ -1,9 +1,9 @@
-##Release 2.1.1
+##2015-12-08 - Release 2.1.1
 ### Summary
 
 Small release for support of newer PE versions.
 
-##2015-08-31 - Release 2.1.0
+##2015-09-15 - Release 2.1.0
 ### Summary
 
 Add Chocolatey and Windows_Env to the module pack.
