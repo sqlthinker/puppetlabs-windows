@@ -1,6 +1,6 @@
 {
   "name": "puppetlabs-windows",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "author": "puppetlabs",
   "summary": "Collection of Puppet modules for managing Microsoft Windows.",
   "license": "Apache-2.0",
@@ -37,7 +37,7 @@
   "requirements": [
     {
       "name": "pe",
-      "version_requirement": ">= 3.4.0 < 2015.3.0"
+      "version_requirement": ">= 3.4.0 < 2015.4.0"
     },
     {
       "name": "puppet",
