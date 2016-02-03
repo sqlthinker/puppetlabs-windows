@@ -5,6 +5,7 @@
 [searching for windows]: https://forge.puppetlabs.com/modules?utf-8=✓&sort=rank&q=windows
 
 [puppetlabs-acl]: https://forge.puppetlabs.com/puppetlabs/acl
+[puppetlabs-dsc]: https://forge.puppetlabs.com/puppetlabs/dsc
 [puppetlabs-powershell]: https://forge.puppetlabs.com/puppetlabs/powershell
 [puppetlabs-reboot]: https://forge.puppetlabs.com/puppetlabs/reboot
 [puppetlabs-registry]: https://forge.puppetlabs.com/puppetlabs/registry
@@ -46,6 +47,7 @@ Take note that only the modules by Puppet Labs are supported with Puppet Enterpr
 
 Use Puppet on Windows to:
 - Read, create and write **registry keys** with [puppetlabs-registry].
+- Manage **Windows PowerShell DSC** (Desired State Configuration) resources using [puppetlabs-dsc].
 - Interact with **PowerShell** through the Puppet DSL with [puppetlabs-powershell].
 - **Reboot** Windows as part of management as necessary through [puppetlabs-reboot].
 - Enforce fine-grained **access control** permissions using [puppetlabs-acl].

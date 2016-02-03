@@ -9,6 +9,7 @@
   "issues_url": "https://tickets.puppetlabs.com/browse/MODULES",
   "dependencies": [
     {"name":"puppetlabs/registry","version_requirement":"1.x"},
+    {"name":"puppetlabs/dsc","version_requirement":"1.x"},
     {"name":"puppetlabs/powershell","version_requirement":"1.x"},
     {"name":"puppetlabs/reboot","version_requirement":"1.x"},
     {"name":"puppetlabs/acl","version_requirement":"1.x"},
