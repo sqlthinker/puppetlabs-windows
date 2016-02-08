@@ -5,6 +5,7 @@
 [searching for windows]: https://forge.puppetlabs.com/modules?utf-8=✓&sort=rank&q=windows
 
 [puppetlabs-acl]: https://forge.puppetlabs.com/puppetlabs/acl
+[puppetlabs-dsc]: https://forge.puppetlabs.com/puppetlabs/dsc
 [puppetlabs-powershell]: https://forge.puppetlabs.com/puppetlabs/powershell
 [puppetlabs-reboot]: https://forge.puppetlabs.com/puppetlabs/reboot
 [puppetlabs-registry]: https://forge.puppetlabs.com/puppetlabs/registry
@@ -14,13 +15,12 @@
 [puppet-download_file]: https://forge.puppetlabs.com/puppet/download_file
 [puppet-iis]: https://forge.puppetlabs.com/puppet/iis
 [puppet-windowsfeature]: https://forge.puppetlabs.com/puppet/windowsfeature
-
 [badgerious-windows_env]: https://forge.puppetlabs.com/badgerious/windows_env
 [chocolatey-chocolatey]: https://forge.puppetlabs.com/chocolatey/chocolatey
+
 [puppet-windows_eventlog]: https://forge.puppetlabs.com/puppet/windows_eventlog
 [puppet-sslcertificate]: https://forge.puppetlabs.com/puppet/sslcertificate
 [counsyl-windows]: https://forge.puppetlabs.com/counsyl/windows
-[ceritsc-chocolatey_sw]: https://forge.puppetlabs.com/ceritsc/chocolatey_sw
 [jriviere-windows_ad]: https://forge.puppetlabs.com/jriviere/windows_ad
 [trlinkin-domain_membership]: https://forge.puppetlabs.com/trlinkin/domain_membership
 
@@ -45,18 +45,21 @@ These are the modules available in the puppetlabs-windows pack. Full documentati
 Take note that only the modules by Puppet Labs are supported with Puppet Enterprise. The rest have been reviewed and recommended by Puppet Labs but are not eligible for [commercial support].
 
 Use Puppet on Windows to:
-- Read, create and write **registry keys** with [puppetlabs-registry].
+
+- Enforce fine-grained **access control** permissions using [puppetlabs-acl].
+- Manage **Windows PowerShell DSC** (Desired State Configuration) resources using [puppetlabs-dsc].
 - Interact with **PowerShell** through the Puppet DSL with [puppetlabs-powershell].
 - **Reboot** Windows as part of management as necessary through [puppetlabs-reboot].
-- Enforce fine-grained **access control** permissions using [puppetlabs-acl].
-- Manage Windows Server Update Service configs on client nodes [puppetlabs-wsus_client].
-- Install or remove **Windows features** with [puppet-windowsfeature].
-- Download files for use during management via [puppet-download_file].
-- Build IIS sites and virtual applications with [puppet-iis].
-- Install packages with [chocolatey-chocolatey].
-- Manage environment variables with ease with [badgerious-windows_env].
-- Soon, create and manage Microsoft SQL including databases, users and grants with the [puppetlabs-sqlserver] module (installed separately).
+- Manage **registry keys and values** with [puppetlabs-registry].
+- Specify **WSUS client configuration** (Windows Server Update Service) with [puppetlabs-wsus_client].
+- Create, edit, and remove **environment variables** with ease with [badgerious-windows_env].
+- Manage the installation of **software/packages** with [chocolatey-chocolatey].
+- **Download files** via [puppet-download_file].
+- Build **IIS sites** and **virtual applications** with [puppet-iis].
+- Add/remove **Windows features** with [puppet-windowsfeature].
 
+
+You can also create and manage Microsoft SQL including databases, users and grants with the [puppetlabs-sqlserver] module (for Puppet Enterprise customers, installed separately).
 
 ## More from the Puppet Forge
 
@@ -65,7 +68,6 @@ You can find even more great modules by [searching for windows]. Here are a few 
 - [puppet-windows_eventlog]
 - [puppet-sslcertificate]
 - [counsyl-windows]
-- [ceritsc-chocolatey_sw]
 - [jriviere-windows_ad]
 - [trlinkin-domain_membership]
 
