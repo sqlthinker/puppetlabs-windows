@@ -16,7 +16,7 @@
 [puppet-iis]: https://forge.puppetlabs.com/puppet/iis
 [puppet-windowsfeature]: https://forge.puppetlabs.com/puppet/windowsfeature
 [badgerious-windows_env]: https://forge.puppetlabs.com/badgerious/windows_env
-[chocolatey-chocolatey]: https://forge.puppetlabs.com/chocolatey/chocolatey
+[puppetlabs-chocolatey]: https://forge.puppetlabs.com/puppetlabs/chocolatey
 
 [puppet-windows_eventlog]: https://forge.puppetlabs.com/puppet/windows_eventlog
 [puppet-sslcertificate]: https://forge.puppetlabs.com/puppet/sslcertificate
