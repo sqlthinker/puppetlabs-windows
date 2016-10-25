@@ -6,7 +6,7 @@
   "license": "Apache-2.0",
   "source": "https://github.com/puppetlabs/puppetlabs-windows",
   "project_page": "https://github.com/puppetlabs/puppetlabs-windows",
-  "issues_url": "https://tickets.puppetlabs.com/browse/MODULES",
+  "issues_url": "https://tickets.puppet.com/browse/MODULES",
   "dependencies": [
     {"name":"puppetlabs/acl","version_requirement":"1.x"},
     {"name":"puppetlabs/dsc","version_requirement":"1.x"},
