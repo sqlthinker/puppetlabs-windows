@@ -1,4 +1,14 @@
-## 201-02-08 - Release 2.2.0
+## 2016-10-25 - Release 3.0.0
+### Summary
+
+Changes the Chocolatey module to puppetlabs official supported module
+Updates download_file to the 2.x branch
+Updates iis module to the 2.x branch
+Updates powershell module to the 2.x branch
+Updates windowsfeature module to the 2.x branch
+Updates the list of supported Windows OS versions
+
+## 2016-02-08 - Release 2.2.0
 ### Summary
 
 Add DSC to the module pack.
