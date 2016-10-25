@@ -26,7 +26,7 @@
 
 ## Overview
 
-This module acts as a pack of the Puppet Forge's best Windows content. Installing puppetlabs-windows will install a variety of great modules from a diverse group of module authors, including Puppet Labs. Many are contributed by our community, reviewed and recommended by Puppet Labs as [Puppet Approved](https://forge.puppet.com/approved) modules. Several core modules are provided through our [Puppet Supported](https://forge.puppet.com/supported) program.
+This module acts as a pack of the Puppet Forge's best Windows content. Installing puppetlabs-windows will install a variety of great modules from a diverse group of module authors, including Puppet. Many are contributed by our community, reviewed and recommended by Puppet as [Puppet Approved](https://forge.puppet.com/approved) modules. Several core modules are provided through our [Puppet Supported](https://forge.puppet.com/supported) program.
 
 ## Setup
 
@@ -42,7 +42,7 @@ Now, you can start using individual modules from this pack to solve a problem. T
 
 These are the modules available in the puppetlabs-windows pack. Full documentation for each module can be found by following links to individual module pages. By installing puppetlabs-windows, you will install recommended versions of the entire set of Puppet modules.
 
-Take note that only the modules by Puppet Labs are supported with Puppet Enterprise. The rest have been reviewed and recommended by Puppet Labs but are not eligible for [commercial support].
+Take note that only the modules by Puppet are supported with Puppet Enterprise. The rest have been reviewed and recommended by Puppet but are not eligible for [commercial support].
 
 Use Puppet on Windows to:
 
