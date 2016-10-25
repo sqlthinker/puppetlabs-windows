@@ -16,7 +16,7 @@
 [puppet-iis]: https://forge.puppet.com/puppet/iis
 [puppet-windowsfeature]: https://forge.puppet.com/puppet/windowsfeature
 [badgerious-windows_env]: https://forge.puppet.com/badgerious/windows_env
-[chocolatey-chocolatey]: https://forge.puppet.com/chocolatey/chocolatey
+[puppetlabs-chocolatey]: https://forge.puppet.com/puppetlabs/chocolatey
 
 [puppet-windows_eventlog]: https://forge.puppet.com/puppet/windows_eventlog
 [puppet-sslcertificate]: https://forge.puppet.com/puppet/sslcertificate
@@ -53,7 +53,7 @@ Use Puppet on Windows to:
 - Manage **registry keys and values** with [puppetlabs-registry].
 - Specify **WSUS client configuration** (Windows Server Update Service) with [puppetlabs-wsus_client].
 - Create, edit, and remove **environment variables** with ease with [badgerious-windows_env].
-- Manage the installation of **software/packages** with [chocolatey-chocolatey].
+- Manage the installation of **software/packages** with [puppetlabs-chocolatey].
 - **Download files** via [puppet-download_file].
 - Build **IIS sites** and **virtual applications** with [puppet-iis].
 - Add/remove **Windows features** with [puppet-windowsfeature].
