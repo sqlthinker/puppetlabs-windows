@@ -5,19 +5,19 @@
 [searching for windows]: https://forge.puppet.com/modules?utf-8=✓&sort=rank&q=windows
 
 [puppetlabs-acl]: https://forge.puppet.com/puppetlabs/acl
+[puppetlabs-chocolatey]: https://forge.puppet.com/puppetlabs/chocolatey
 [puppetlabs-dsc]: https://forge.puppet.com/puppetlabs/dsc
 [puppetlabs-powershell]: https://forge.puppet.com/puppetlabs/powershell
 [puppetlabs-reboot]: https://forge.puppet.com/puppetlabs/reboot
 [puppetlabs-registry]: https://forge.puppet.com/puppetlabs/registry
-[puppetlabs-sqlserver]: https://forge.puppet.com/puppetlabs/sqlserver
 [puppetlabs-wsus_client]: https://forge.puppet.com/puppetlabs/wsus_client
 
 [puppet-download_file]: https://forge.puppet.com/puppet/download_file
 [puppet-iis]: https://forge.puppet.com/puppet/iis
-[puppet-windowsfeature]: https://forge.puppet.com/puppet/windowsfeature
 [badgerious-windows_env]: https://forge.puppet.com/badgerious/windows_env
-[puppetlabs-chocolatey]: https://forge.puppet.com/puppetlabs/chocolatey
+[puppet-windowsfeature]: https://forge.puppet.com/puppet/windowsfeature
 
+[puppetlabs-sqlserver]: https://forge.puppet.com/puppetlabs/sqlserver
 [puppet-windows_eventlog]: https://forge.puppet.com/puppet/windows_eventlog
 [puppet-sslcertificate]: https://forge.puppet.com/puppet/sslcertificate
 [counsyl-windows]: https://forge.puppet.com/counsyl/windows
@@ -47,15 +47,15 @@ Take note that only the modules by Puppet are supported with Puppet Enterprise. 
 Use Puppet on Windows to:
 
 - Enforce fine-grained **access control** permissions using [puppetlabs-acl].
+- Manage the installation of **software/packages** with [puppetlabs-chocolatey].
 - Manage **Windows PowerShell DSC** (Desired State Configuration) resources using [puppetlabs-dsc].
 - Interact with **PowerShell** through the Puppet DSL with [puppetlabs-powershell].
 - **Reboot** Windows as part of management as necessary through [puppetlabs-reboot].
 - Manage **registry keys and values** with [puppetlabs-registry].
 - Specify **WSUS client configuration** (Windows Server Update Service) with [puppetlabs-wsus_client].
-- Create, edit, and remove **environment variables** with ease with [badgerious-windows_env].
-- Manage the installation of **software/packages** with [puppetlabs-chocolatey].
 - **Download files** via [puppet-download_file].
 - Build **IIS sites** and **virtual applications** with [puppet-iis].
+- Create, edit, and remove **environment variables** with ease with [badgerious-windows_env].
 - Add/remove **Windows features** with [puppet-windowsfeature].
 
 
