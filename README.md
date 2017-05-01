@@ -14,7 +14,7 @@
 
 [puppet-download_file]: https://forge.puppet.com/puppet/download_file
 [puppet-iis]: https://forge.puppet.com/puppet/iis
-[badgerious-windows_env]: https://forge.puppet.com/badgerious/windows_env
+[puppet-windows_env]: https://forge.puppet.com/puppet/windows_env
 [puppet-windowsfeature]: https://forge.puppet.com/puppet/windowsfeature
 
 [puppetlabs-sqlserver]: https://forge.puppet.com/puppetlabs/sqlserver
@@ -55,7 +55,7 @@ Use Puppet on Windows to:
 - Specify **WSUS client configuration** (Windows Server Update Service) with [puppetlabs-wsus_client].
 - **Download files** via [puppet-download_file].
 - Build **IIS sites** and **virtual applications** with [puppet-iis].
-- Create, edit, and remove **environment variables** with ease with [badgerious-windows_env].
+- Create, edit, and remove **environment variables** with ease with [puppet-windows_env].
 - Add/remove **Windows features** with [puppet-windowsfeature].
 
 
