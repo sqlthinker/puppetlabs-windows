@@ -1,3 +1,11 @@
+## 2017-05-03 - Release 4.0.0
+### Summary
+
+Update module to new namespace.
+
+- Puppet-Community module (`windows_env`) moved from badgerious ([MODULES-4657](https://tickets.puppetlabs.com/browse/MODULES-4657))
+- Requires --force to update if previously installed
+
 ## 2016-10-25 - Release 3.0.0
 ### Summary
 
