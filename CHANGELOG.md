@@ -1,3 +1,10 @@
+## 2017-06-13 - Release 5.0.0
+### Summary
+
+Update module to new namespace.
+
+- Puppet-Community module (`iis`) replaced with Puppet Supported module ([MODULES-3054](https://tickets.puppetlabs.com/browse/MODULES-3054))
+
 ## 2017-05-03 - Release 4.0.0
 ### Summary
 
